@@ -6,7 +6,7 @@
 /*   By: ajeanne <ajeanne@student.42.fr>            +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/09/24 19:38:16 by ajeanne           #+#    #+#             */
-/*   Updated: 2023/09/24 20:35:06 by ajeanne          ###   ########.fr       */
+/*   Updated: 2023/09/29 09:39:20 by ajeanne          ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -31,8 +31,8 @@ int main()  {
     --it;
     while (it != ite)
     {
-    std::cout << *it << std::endl;
-    ++it;
+        std::cout << *it << std::endl;
+        ++it;
     }
     std::stack<int> s(mstack);
     
@@ -54,8 +54,8 @@ int main()  {
     --it1;
     while (it1 != ita)
     {
-    std::cout << *it1 << std::endl;
-    ++it1;
+        std::cout << *it1 << std::endl;
+        ++it1;
     }
     return (0);
 }
